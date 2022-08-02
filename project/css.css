@@ -1,3 +1,17 @@
+body
+{
+	background-image: linear-gradient(to bottom, #f4f2f7, #bab8c3);
+}
+
+.TopMenu a.Top
+{
+	float: center;
+	text-align: center;
+	color: #fce300;
+	padding: 0px 130px;
+	font-size:40px;
+}
+
 .TopMenu 
 {
 	background-color: #333;
@@ -12,11 +26,17 @@
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
+	cursor: pointer;
 }
 
 .TopMenu a:hover 
 {
 	background-color: #222;
+}
+
+.TopMenu a.Top:Hover
+{
+	background-color: #333;
 }
 
 .TopMenu a.split 
@@ -34,4 +54,48 @@
 .TopMenu a.split:hover
 {
 	background-color: #3c7c1b;
+}
+
+.HeaderImage img
+{
+	position: relative;
+	text-align: center;
+	color: white;
+	max-width: 69%;
+	height: auto;
+	object-fit: cover;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.TopRight
+{
+	position: absolute;
+	top: 50px;
+	left: 535px;
+	color: orange;
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: .5px;
+	font-size: 80px;
+}
+
+.HeaderImage a
+{
+	position: absolute;
+	color: #fce300;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 40px;
+	cursor: pointer;
+	background-color: black;
+	overflow: hidden;
+	bottom: 100px;
+	left: 290px;
+}
+
+.HeaderImage a:hover
+{
+	background-color:#333;
 }
