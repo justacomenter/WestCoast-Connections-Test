@@ -1,0 +1,37 @@
+.TopMenu 
+{
+	background-color: #333;
+	overflow: hidden;
+}
+
+.TopMenu a 
+{
+	float: left;
+	color: #fce300;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.TopMenu a:hover 
+{
+	background-color: #222;
+}
+
+.TopMenu a.split 
+{
+	float: right;
+	background-color: #4c8c2b;
+	color: white;
+}
+
+.TopMenu img
+{
+	float:left;
+}
+
+.TopMenu a.split:hover
+{
+	background-color: #3c7c1b;
+}
