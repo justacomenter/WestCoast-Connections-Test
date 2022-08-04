@@ -16,6 +16,10 @@ body
 {
 	background-color: #333;
 	overflow: hidden;
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
 }
 
 .TopMenu a 
@@ -67,13 +71,14 @@ body
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	top: 40px;
 }
 
 .TopRight
 {
 	position: absolute;
-	top: 50px;
-	left: 535px;
+	top: 9%;
+	right: 17%;
 	color: orange;
 	-webkit-text-stroke-color: black;
 	-webkit-text-stroke-width: .5px;
@@ -91,11 +96,28 @@ body
 	cursor: pointer;
 	background-color: black;
 	overflow: hidden;
-	bottom: 100px;
-	left: 290px;
+	bottom: 25%;
+	left: 25%;
 }
 
 .HeaderImage a:hover
 {
 	background-color:#333;
+}
+
+.ShopBar img
+{
+	max-width: 30%;
+	top: 30px;
+}
+
+.ShopBar b
+{
+	font-size: 30px;
+}
+
+.first
+{
+	top: 50%;
+	left: 20%;
 }
