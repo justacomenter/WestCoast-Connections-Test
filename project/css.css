@@ -105,6 +105,11 @@ body
 	background-color:#333;
 }
 
+.ShopBar
+{
+	position: relative;
+}
+
 .ShopBar img
 {
 	max-width: 30%;
@@ -118,8 +123,19 @@ body
 
 .first
 {
-	top: 50%;
-	left: 20%;
+	position: absolute;
+	left: 10px;
+	bottom: 12px;
+	font-size: 30px;
+}
+
+.FirstPrice
+{
+	position: absolute;
+	left: 300px;
+	top: 270px;
+	font-size: 50px;
+	color: #4c8c2b;
 }
 
 .Biography
@@ -136,4 +152,5 @@ body
 	background-color: #333;
 	width: 100%;
 	color: white;
+	font-size: 17px;
 }
