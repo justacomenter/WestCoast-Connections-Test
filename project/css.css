@@ -82,7 +82,7 @@ body
 	color: orange;
 	-webkit-text-stroke-color: black;
 	-webkit-text-stroke-width: .5px;
-	font-size: 80px;
+	font-size: 465%;
 }
 
 .HeaderImage a
@@ -120,4 +120,20 @@ body
 {
 	top: 50%;
 	left: 20%;
+}
+
+.Biography
+{
+	max-width: 65%;
+	font-size: 20px;
+}
+
+.footer
+{
+	position: absolute;
+	left: 0;
+	bottom: -120%;
+	background-color: #333;
+	width: 100%;
+	color: white;
 }
