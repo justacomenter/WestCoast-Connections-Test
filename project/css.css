@@ -8,8 +8,8 @@ body
 	float: center;
 	text-align: center;
 	color: #fce300;
-	padding: 0 9.5%;
-	font-size:250%;
+	padding: 0px 130px;
+	font-size:40px;
 }
 
 .TopMenu 
@@ -27,9 +27,9 @@ body
 	float: left;
 	color: #fce300;
 	text-align: center;
-	padding: 1.05% 1.2%;
+	padding: 14px 16px;
 	text-decoration: none;
-	font-size: 106.25%;
+	font-size: 17px;
 	cursor: pointer;
 }
 
@@ -90,9 +90,9 @@ body
 	position: absolute;
 	color: #fce300;
 	text-align: center;
-	padding: 1.05% 1.2%;
+	padding: 14px 16px;
 	text-decoration: none;
-	font-size: 250%;
+	font-size: 40px;
 	cursor: pointer;
 	background-color: black;
 	overflow: hidden;
@@ -113,34 +113,35 @@ body
 .ShopBar img
 {
 	max-width: 30%;
+	top: 30px;
 }
 
 .ShopBar b
 {
-	font-size: 187.5%;
+	font-size: 30px;
 }
 
 .first
 {
 	position: absolute;
-	left: 2%;
-	bottom: 2%;
-	font-size: 187.5%;
+	left: 10px;
+	bottom: 12px;
+	font-size: 30px;
 }
 
 .FirstPrice
 {
 	position: absolute;
-	left: 22%;
-	top: 50%;
-	font-size: 312.5%;
+	left: 300px;
+	top: 270px;
+	font-size: 50px;
 	color: #4c8c2b;
 }
 
 .Biography
 {
 	max-width: 65%;
-	font-size: 125%;
+	font-size: 20px;
 }
 
 .footer
@@ -151,5 +152,5 @@ body
 	background-color: #333;
 	width: 100%;
 	color: white;
-	font-size: 106.25%;
+	font-size: 17px;
 }
