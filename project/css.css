@@ -5,11 +5,14 @@ body
 
 .TopMenu a.Top
 {
-	float: center;
+	position: absolute;
 	text-align: center;
 	color: #fce300;
-	padding: 0px 130px;
+	padding: 0px 0px;
 	font-size:40px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .TopMenu 
@@ -138,6 +141,28 @@ body
 	color: #4c8c2b;
 }
 
+.second
+{
+	position: absolute;
+	left: 420px;
+	bottom: 12px;
+	font-size: 30px;
+}
+
+.SecondPrice
+{
+	position: absolute;
+	left: 720px;
+	top: 270px;
+	font-size: 50px;
+	color: #4c8c2b;
+}
+
+.middle
+{
+	margin-left: 100px;
+}
+
 .Biography
 {
 	max-width: 65%;
@@ -148,9 +173,26 @@ body
 {
 	position: absolute;
 	left: 0;
-	bottom: -120%;
+	transform: translate (0%, -0%);
 	background-color: #333;
 	width: 100%;
 	color: white;
 	font-size: 17px;
+}
+
+.StoreBar
+{
+	position: relative;
+	transform: translate(0, 10%);
+}
+
+.StoreBar img
+{
+	max-width: 30%;
+	top: 30px;
+}
+
+.StoreBar b
+{
+	font-size: 30px;
 }
