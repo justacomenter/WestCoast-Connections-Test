@@ -259,18 +259,23 @@ textarea:focus
 
 .proimg
 {
-	width: 37.5%;
+	width: 36.4%;
 	float: left;
 }
 
 .proinfo
 {
-	transform: translate(7%, 15%);
+	transform: translate(100px, -70px);
 	font-size: 23px;
 }
 
 .rating
 {
-	transform: translate(550px, -385px);
-	font-size: 30px;
+	transform: translate(-150px, 50px);
+	font-size: 50px;
+}
+
+.payment
+{
+	transform: translate(0, -70px);
 }
