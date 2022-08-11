@@ -1,6 +1,7 @@
 body
 {
 	background-image: linear-gradient(to bottom, #f4f2f7, #bab8c3);
+	overflow-x: hidden;
 }
 
 .TopMenu a.Top
@@ -256,19 +257,20 @@ textarea:focus
 	background-color: #bab8c3;
 }
 
-.container
-{
-	min-height: 97.5vh;
-}
-
 .proimg
 {
-	width: 38.5%;
+	width: 37.5%;
 	float: left;
 }
 
 .proinfo
 {
-	float: right;
-	transform: translate(0% 0%);
+	transform: translate(7%, 15%);
+	font-size: 23px;
+}
+
+.rating
+{
+	transform: translate(550px, -385px);
+	font-size: 30px;
 }
